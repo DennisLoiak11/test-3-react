@@ -9,7 +9,7 @@ const AsideLeft = () => {
                     <Col sm={2} className="p-0">
                         <nav className="navbar-dark bg-dark vh-100 sticky-sm-top p-2">
                             <a className="navbar-brand" href="#home">
-                                <img src={logo} alt='Logo' style={{ width: "130px", height: "40px" }} />
+                                <img src={logo} alt='Logo' style={{ width: "130px", height: "40px" }} className="mb-3" />
                             </a>
                             <ul className="navbar-nav">
                                 <li className="nav-item">
@@ -25,7 +25,7 @@ const AsideLeft = () => {
                             </ul>
                             <Form className="d-flex" role="search">
                                 <FormControl type="search" placeholder="Search" aria-label="Search" className="me-2" />
-                                <Button variant="outline-success" type="submit">Search</Button>
+                                <Button variant="outline-secondary" type="submit">GO</Button>
                             </Form>
                         </nav>
                         <div className='d-flex flex-column sticky-bottom'>
